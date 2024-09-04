@@ -1,0 +1,165 @@
+body {
+    color: rgb(17, 237, 211);
+    font-family: 'Happy Monkey', cursive;
+    background-color: rgb(92, 87, 87);
+    background: linear-gradient(#5A5459ff,#5F585Dff, #74574Dff, #CEAEA1ff, #EBD0C3ff, #EBD0C3ff ) ;
+    text-align: center;
+}
+
+h1 {
+    text-shadow: -10px 5px 10px rgb(25, 17, 9); 
+}
+
+#lind-img {
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid rgb(5, 255, 209);
+
+}
+
+#bday-age { 
+    background: #e5ead67c;
+    padding: 10px 25px;
+    border-radius: 20px;
+    text-shadow: -10px 5px 10px rgb(25, 17, 9); 
+}
+
+#bday-date {
+    margin: 0;
+    color: rgb(88, 255, 216);
+    font-weight: 900;
+    text-shadow: 1px 3px 1px rgb(26, 64, 230);
+    background: #e5ead67c;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 130px;
+}
+
+.gift-section {
+    margin: 50px 100px;
+    width: 100;
+}
+
+.gift-title {
+    margin: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+
+}
+
+/* 
+  This style defines a container (div) with a background image to display a single image as a non-repeating background.
+  
+  - margin: 0 auto; -> Centers the container horizontally within its parent element by setting automatic left and right margins.
+  - background-image: url("/images/present.webp"); -> Sets the background image for the container.
+  - width: 400px; and height: 400px; -> Specifies the dimensions of the container, ensuring the background image is displayed 
+    within these bounds.
+  - background-size: cover; -> Scales the background image to cover the entire container area without repeating, ensuring the 
+    image fills the container fully, even if it results in cropping.
+  - border-radius: 10px; -> Rounds the corners of the container slightly for a smoother appearance.
+
+  This setup ensures the image appears as a fully contained, centered, and non-repeating background within a 400px by 400px square div. 
+*/
+.price-img {
+    margin: 0 auto;
+    background-image: url("/images/present.webp");
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#price-img-happy:hover {
+    margin: 0 auto;
+    width: 50%;
+    background-size: cover;
+    padding: auto;
+    background-image: url("/images/giphy.webp");
+}
+
+
+#price-img-hot:hover {
+    margin: 0 auto;
+    width: 50%;
+    background-size: cover;
+    padding: auto;
+    background-image: url("/images/horse.webp");
+}
+
+#price-img-day:hover {
+    margin: 0 auto;
+    width: 50%;
+    background-size: cover;
+    padding: auto;
+    background-image: url("/images/day.webp");
+}
+
+#price-img-people:hover {
+    margin: 0 auto;
+    width: 50%;
+    background-size: cover;
+    padding: auto;
+    background-image: url("/images/people.webp");
+}
+
+#price-img-cheers {
+    height: 300px;
+    border: 1px solid white;
+    background-image: url("/images/gift.png");
+}
+
+#price-img-cheers:hover {
+    background-image: url("/images/cheers.webp");
+
+}
+
+#footer {
+    font-style: italic;
+    font-size: 20px;
+    color:rgb(25, 17, 9);
+    width: 400px;
+    margin: 50px auto 40px;
+}
+
+a {
+    color: rgb(48, 136, 146);
+}
+
+/*
+  Flexbox Layout Configuration:
+
+  - display: flex; -> Enables flexbox layout for the container, allowing for easy alignment and distribution of child elements.
+  
+  - flex-direction: column; -> Arranges the flex items (children of the container) in a vertical column, one below the other.
+  
+  - justify-content: space-between; -> Distributes the flex items vertically (because of column direction) with space between 
+    them, pushing the first item to the top and the last item to the bottom of the container, while the remaining space is evenly 
+    distributed between the other items.
+  
+  - align-items: flex-end; -> Aligns all flex items horizontally to the right side of the container, making the right edges of 
+    the items align with the right edge of the container.
+
+  Additional Options for Justify-Content (if needed):
+  - start: Aligns items at the start of the container (top for column direction).
+  - center: Centers items vertically within the container.
+  - end: Aligns items at the end of the container (bottom for column direction).
+  - space-around: Distributes items with equal space around them, so the space between any two items is twice the space from the edges.
+  - space-evenly: Distributes items with equal space between them and the edges.
+  - space-between: (used here) Distributes items with the first at the start and the last at the end, with equal space between all other items.
+  
+  Additional Options for Align-Items (if needed):
+  - start: Aligns items to the left (beginning) of the container.
+  - center: Centers items horizontally within the container.
+  - end: Aligns items to the right (end) of the container.
+ */
