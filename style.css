@@ -2,7 +2,7 @@ body {
     color: rgb(8, 242, 214);
     font-family: 'Happy Monkey', cursive;
     background-color: rgb(92, 87, 87);
-    background: linear-gradient(#5A5459ff,#5F585Dff, #74574Dff, #CEAEA1ff, #EBD0C3ff, #EBD0C3ff ) ;
+    background: linear-gradient(#5A5459ff,#5A5459ff,#5F585Dff, #74574Dff, #CEAEA1ff, #EBD0C3ff, #EBD0C3ff ) ;
     text-align: center;
 }
 
