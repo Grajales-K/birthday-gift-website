@@ -1,5 +1,5 @@
 body {
-    color: rgb(17, 237, 211);
+    color: rgb(8, 242, 214);
     font-family: 'Happy Monkey', cursive;
     background-color: rgb(92, 87, 87);
     background: linear-gradient(#5A5459ff,#5F585Dff, #74574Dff, #CEAEA1ff, #EBD0C3ff, #EBD0C3ff ) ;
@@ -47,6 +47,7 @@ h1 {
 .gift-section {
     margin: 50px 100px;
     width: 100;
+    text-shadow: 1px 3px 1px rgb(26, 64, 230);
 }
 
 .gift-title {
@@ -123,6 +124,13 @@ h1 {
     background-image: url("/images/cheers.webp");
 
 }
+
+/* .gift-title-last{
+    color:rgb(24, 2, 133)
+}
+.gift-hint-last{
+    color:rgb(24, 2, 133)
+} */
 
 #footer {
     font-style: italic;
