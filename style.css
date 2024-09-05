@@ -75,47 +75,39 @@ h1 {
 .price-img {
     margin: 0 auto;
     background-image: url("/images/present.webp");
-    width: 500px;
-    height: 500px;
+    width: 31.25rem;
+    height: 31.25rem;
     background-size: cover;
-    border-radius: 10px;
+    border-radius: 0.6rem;
 }
 
 #price-img-happy:hover {
     margin: 0 auto;
-    width: 50%;
-    background-size: cover;
-    padding: auto;
+    width: 40rem;
     background-image: url("/images/giphy.webp");
 }
 
 
 #price-img-hot:hover {
     margin: 0 auto;
-    width: 50%;
-    background-size: cover;
-    padding: auto;
+    width: 40rem;
     background-image: url("/images/horse.webp");
 }
 
 #price-img-day:hover {
     margin: 0 auto;
-    width: 50%;
-    background-size: cover;
-    padding: auto;
+    width: 40rem;
     background-image: url("/images/day.webp");
 }
 
 #price-img-people:hover {
     margin: 0 auto;
-    width: 50%;
-    background-size: cover;
-    padding: auto;
+    width: 40rem;
     background-image: url("/images/people.webp");
 }
 
 #price-img-cheers {
-    height: 300px;
+    height: 18.75rem;
     border: 1px solid white;
     background-image: url("/images/gift.png");
 }
@@ -127,7 +119,7 @@ h1 {
 
 /* .gift-title-last{
     color:rgb(24, 2, 133)
-}
+
 .gift-hint-last{
     color:rgb(24, 2, 133)
 } */
